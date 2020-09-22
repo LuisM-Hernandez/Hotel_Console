@@ -24,65 +24,40 @@ namespace Hotel_Console
                 Console.WriteLine("You have chosen floor number " + floor);
                 Console.WriteLine("The cost per night is $45.00");
                 Console.WriteLine("How long will you stay?");
-                var stay = Int32.Parse(Console.ReadLine());
-                
-                
-                if (stay <= 3)
-                {
-                    Console.WriteLine("You've chosen "+ stay + " nights");
-                    var cost = 45.00;
-                    var total = stay * cost;
-                    Console.WriteLine("Your total is $"+total); 
-                    
-                   
-                }
+                var roomCost = 45.00;
+                var numNights = Int32.Parse(Console.ReadLine());
+                var total1 = roomCost * numNights;
+                Console.WriteLine("Your total is $"+ total1);
             }
-            break;
+                
 
-            case 2:
-
-            Console.WriteLine("You selected double");
-            Console.WriteLine("What floor do you wish to stay?");
-            var floornum2 = Int32.Parse(Console.ReadLine());
-
-            if (floornum2 <= 5)
+            else if (floor == 6 || floor <=11)
             {
-                Console.WriteLine("You have chosen floor number " + floornum2);
-                Console.WriteLine("How long will you stay?");
-                var stay = Int32.Parse(Console.ReadLine());
-                
-                if (stay <= 3)
-                {
-                    Console.WriteLine("You've chosen "+ stay + " nights");
-                }
+                Console.WriteLine("You have chosen floor number" + floor);
+                    Console.WriteLine("The cost per night is $55.00");
+                    Console.WriteLine("How long will you stay?");
+                    var roomCost2 = 55.00;
+                    var numNights2 = Int32.Parse(Console.ReadLine());
+                    var total2 = roomCost2 * numNights2;
+                    Console.WriteLine("Your total is $"+total2);
             }
-            break;
 
-            case 3:
-
-            Console.WriteLine("You selected suite");
-            Console.WriteLine("What floor do you wish to stay?");
-            var floornum3 = Int32.Parse(Console.ReadLine());
-
-            if (floornum3 <= 5)
+            else if (floor == 12)
             {
-                Console.WriteLine("You have chosen floor number " + floornum3);
-                Console.WriteLine("How long will you stay?");
-                var stay = Int32.Parse(Console.ReadLine());
-                
-                if (stay <= 3)
-                {
-                    Console.WriteLine("You've chosen "+ stay + " nights");
-                }
+                Console.WriteLine("That room is unavailable");
             }
+
+            else if  (floor > 12)
+            {
+                Console.WriteLine("We do not have that many rooms. Try again");
+            }
+
             break;
 
+           
             
 
         }
-
-
-
 
         }
     }

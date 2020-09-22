@@ -1,0 +1,13 @@
+C:\Users\Luis\C#\Hotel_Console\obj\Debug\netcoreapp3.1\Hotel_Console.csprojAssemblyReference.cache
+C:\Users\Luis\C#\Hotel_Console\obj\Debug\netcoreapp3.1\Hotel_Console.AssemblyInfoInputs.cache
+C:\Users\Luis\C#\Hotel_Console\obj\Debug\netcoreapp3.1\Hotel_Console.AssemblyInfo.cs
+C:\Users\Luis\C#\Hotel_Console\obj\Debug\netcoreapp3.1\Hotel_Console.csproj.CoreCompileInputs.cache
+C:\Users\Luis\C#\Hotel_Console\bin\Debug\netcoreapp3.1\Hotel_Console.exe
+C:\Users\Luis\C#\Hotel_Console\bin\Debug\netcoreapp3.1\Hotel_Console.deps.json
+C:\Users\Luis\C#\Hotel_Console\bin\Debug\netcoreapp3.1\Hotel_Console.runtimeconfig.json
+C:\Users\Luis\C#\Hotel_Console\bin\Debug\netcoreapp3.1\Hotel_Console.runtimeconfig.dev.json
+C:\Users\Luis\C#\Hotel_Console\bin\Debug\netcoreapp3.1\Hotel_Console.dll
+C:\Users\Luis\C#\Hotel_Console\bin\Debug\netcoreapp3.1\Hotel_Console.pdb
+C:\Users\Luis\C#\Hotel_Console\obj\Debug\netcoreapp3.1\Hotel_Console.dll
+C:\Users\Luis\C#\Hotel_Console\obj\Debug\netcoreapp3.1\Hotel_Console.pdb
+C:\Users\Luis\C#\Hotel_Console\obj\Debug\netcoreapp3.1\Hotel_Console.genruntimeconfig.cache

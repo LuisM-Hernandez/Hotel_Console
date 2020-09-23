@@ -7,6 +7,7 @@ namespace Hotel_Console
         static void Main(string[] args)
         {
         
+        Console.ForegroundColor = ConsoleColor.DarkCyan;
         Console.WriteLine("Welcome to the Carlington Hotel");
         Console.WriteLine("");
         Console.WriteLine("What kind of room would you like?");
@@ -25,6 +26,7 @@ namespace Hotel_Console
             if (floor <= 5)
             {
                 Console.WriteLine("You have chosen floor number " + floor);
+                Console.WriteLine("");
                 Console.WriteLine("The cost per night is $45.00");
                 Console.WriteLine("How long will you stay?");
                 var roomCost = 45.00;
@@ -48,6 +50,7 @@ namespace Hotel_Console
             else if (floor == 6 || floor <=11)
             {
                     Console.WriteLine("You have chosen floor number" + floor);
+                    Console.WriteLine("");
                     Console.WriteLine("The cost per night is $55.00");
                     Console.WriteLine("How long will you stay?");
                     var roomCost2 = 55.00;
@@ -89,6 +92,7 @@ namespace Hotel_Console
             if (floor2 <= 5)
             {
                 Console.WriteLine("You have chosen floor number " + floor2);
+                Console.WriteLine("");
                 Console.WriteLine("The cost per night is $60.00");
                 Console.WriteLine("How long will you stay?");
                 var roomCost = 60.00;
@@ -112,6 +116,7 @@ namespace Hotel_Console
             else if (floor2 == 6 || floor2 <=11)
             {
                     Console.WriteLine("You have chosen floor number" + floor2);
+                    Console.WriteLine("");
                     Console.WriteLine("The cost per night is $72.00");
                     Console.WriteLine("How long will you stay?");
                     var roomCost2 = 72.00;
@@ -134,6 +139,7 @@ namespace Hotel_Console
             else if (floor2 == 12)
             {
                     Console.WriteLine("You have chosen floor number " + floor2);
+                    Console.WriteLine("");
                     Console.WriteLine("The cost per night is $120.00");
                     Console.WriteLine("How long will you stay?");
                     var roomCost2 = 120.00;
@@ -168,6 +174,7 @@ namespace Hotel_Console
             if (floor3 <= 5)
             {
                 Console.WriteLine("You have chosen floor number " + floor3);
+                Console.WriteLine("");
                 Console.WriteLine("The cost per night is $130.00");
                 Console.WriteLine("How long will you stay?");
                 var roomCost = 130.00;
@@ -191,6 +198,7 @@ namespace Hotel_Console
             else if (floor3 == 6 || floor3 <=11)
             {
                     Console.WriteLine("You have chosen floor number" + floor3);
+                    Console.WriteLine("");
                     Console.WriteLine("The cost per night is $215.00");
                     Console.WriteLine("How long will you stay?");
                     var roomCost2 = 215.00;
@@ -213,6 +221,7 @@ namespace Hotel_Console
             else if (floor3 == 12)
             {
                     Console.WriteLine("You have chosen floor number " + floor3);
+                    Console.WriteLine("");
                     Console.WriteLine("The cost per night is $350.00");
                     Console.WriteLine("How long will you stay?");
                     var roomCost2 = 350.00;
